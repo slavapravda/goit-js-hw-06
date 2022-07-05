@@ -10,18 +10,18 @@ const span = document.querySelector ('#value');
 
 let counterValue = 0;
 
-const handlerDecrBtnClick = () => {
+const handleDecrBtnClick = () => {
     counterValue -= 1
     span.textContent = counterValue;
 }
 
-const handlerIncrBtnClick = () => {
+const handleIncrBtnClick = () => {
     counterValue += 1
     span.textContent = counterValue;
 }
 
-btnDecrement.addEventListener('click', handlerDecrBtnClick)
-btnIncrement.addEventListener('click', handlerIncrBtnClick)
+btnDecrement.addEventListener('click', handleDecrBtnClick)
+btnIncrement.addEventListener('click', handleIncrBtnClick)
 
 
 
